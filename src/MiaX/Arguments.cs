@@ -72,13 +72,13 @@ namespace MiaX
 
         public static void Usage()
         {
-            Console.WriteLine("Usage: *.exe word-length charset output-file [-x procces-count]");
+            Console.WriteLine("Usage: *.exe word-length charset output-file [-x process-count]");
             Console.WriteLine();
             Console.WriteLine("\tword-length: The length of the words");
-            Console.WriteLine("\tcharset    : ASCII-characters to build the password");
-            Console.WriteLine("\toutput-file: Local file to write the passwords");
-            Console.WriteLine("\t-x procces-count");
-            Console.WriteLine("\t\tprocces-count: How many process spawn");
+            Console.WriteLine("\tcharset    : ASCII-characters to build the word");
+            Console.WriteLine("\toutput-file: Local file to write the words");
+            Console.WriteLine("\t-x process-count");
+            Console.WriteLine("\t\tprocess-count: How many process spawn");
             Console.WriteLine();
         }
     }
